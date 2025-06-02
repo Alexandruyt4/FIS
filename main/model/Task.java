@@ -22,8 +22,6 @@ public class Task {
         this.subjectId = subjectId;
         this.userId = userId;
     }
-
-    // Add these getters to your existing Task.java
     public int getId() { return id; }
     public String getTitle() { return title; }
     public String getDescription() { return description; }
